@@ -1,0 +1,24 @@
+.list-header{
+    background: $item-bg;
+    border: 1px solid $item-border;
+    color:darken(#eee, 70%);
+    display: flex;
+    justify-content: space-between;
+    padding:$space;
+}
+.item {
+    background: $item-bg;
+    border: 1px solid $item-border;
+    border-top:none;
+    // margin-bottom:$space;
+    padding:$space;
+}
+.item__message {
+    color:$item-text-color;
+}
+.item__status-message {
+    color:$item-text-color;
+    font-style: italic;
+    text-align: center;
+    margin:0;
+}
